@@ -1,0 +1,15 @@
+/* tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'NotoSansLao';
+    src: url('../assets/fonts/NotoSansLao.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: 'NotoSansLao', sans-serif;
+}
