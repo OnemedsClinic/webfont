@@ -10,8 +10,8 @@
     <div
       class="max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-[80%] p-4"
     >
-      <div class="md:flex">
-        <div class="md:shrink-0 px-2">
+      <div class="lg:flex md:row sm:row">
+        <div class="md:shrink-0 px-2 sm:col">
           <img
             class="h-48 w-full object-cover md:h-full md:w-96 rounded-md"
             src="../../assets/ServicesImages/va.jpg"
@@ -31,7 +31,9 @@
               <i class="bx bx-star bx-tada text-[#005789] text-xl"></i> &nbsp;
               <span class="text-[#005789] font-semibold">Advanced Care</span>
             </div>
-            <h1 class="tracking-wide text-[32px] font-bold">
+            <h1
+              class="tracking-wide lg:text-[32px] md:text-[18px] sm:text-[12px] font-bold"
+            >
               Welcome to OneMeds Clinic
             </h1>
           </div>
@@ -42,7 +44,7 @@
         </div>
       </div>
       <!-- --------------------------------------------------------------------------------------------------------------------- -->
-      <div class="md:flex pt-2">
+      <div class="lg:flex md:row sm:row">
         <div class="md:shrink-0 px-2">
           <img
             class="h-48 w-full object-cover md:h-full md:w-96 rounded-md"
@@ -72,7 +74,7 @@
               <span class="font-semibold">Patient-Centered Approach</span>
             </div>
           </div>
-          <div class="flex flex-col-2">
+          <div class="lg:flex md:row sm:row flex-col-2">
             <div class="flex items-center mt-5">
               <i
                 class="bx bx-phone border-[#005789] border-2 rounded-full p-2 text-2xl text-[#005789] hover:-rotate-45 duration-200"
@@ -101,12 +103,13 @@
     </div>
     <!-- --------------------------------------------------------------------------------------------------------------------- -->
     <div class="p-5 bg-[#eff6f9]">
-      <div class="flex flex-col-2">
-        <div class="w-[40%]">
-          <i class="bx bx-badge-check text-[#005789] text-xl"></i> &nbsp;
+      <div class="lg:flex sm:row items-center justify-center p-5 gap-5">
+        <!-- Left Column: Text -->
+        <div class="lg:w-[40%] sm:w-full text-center lg:text-left">
+          <i class="bx bx-badge-check text-[#005789] text-xl"></i>
           <span class="font-semibold">Exceptional Care</span>
           <div>
-            <h1 class="text-[32px] font-bold">
+            <h1 class="lg:text-[32px] sm:text-[20px] font-bold">
               Excellence in medical <br />
               services with passion for patient care
             </h1>
@@ -118,15 +121,19 @@
           </div>
         </div>
 
-        <div class="rounded-xl w-[40%] flex items-center justify-center">
+        <!-- Right Column: Image -->
+        <div
+          class="rounded-xl lg:w-[40%] sm:w-full lg:flex items-center justify-center"
+        >
           <img
             src="../../assets/DoctorImage/cd-9.png"
-            alt=""
-            class="w-96 bg-white border-slate-500 p-4 rounded-lg hover:scale-105 duration-200"
+            alt="Doctor Image"
+            class="w-96 bg-white border-slate-500 p-4 rounded-lg hover:scale-105 duration-200 sm:hidden md:hidden lg:block"
           />
         </div>
       </div>
-      <div class="flex flex-col-3 m-10">
+
+      <div class="flex-col-3 m-10 lg:flex md:row sm:row">
         <div class="p-10 rounded-lg shadow-inner bg-white m-2">
           <i class="bx bx-plus-medical text-[70px] text-teal-500"></i>
           <h1 class="font-semibold text-[#005789] text-2xl">
@@ -167,73 +174,80 @@
         <h1 class="text-[32px] font-bold">Meet Our Doctors</h1>
       </div>
       <div
-            class="flex flex-wrap lg:flex-row p-5 justify-center items-center gap-5"
-          >
-            <div class="card bg-base-100 w-96 shadow-xl">
-              <figure class="hover:scale-105 duration-200">
-                <img src="../../assets/DoctorImage/cd-9.png" alt="Doctor" />
-              </figure>
-              <div class="card-body">
-                <h2 class="card-title">
-                  Doctor
-                  <div class="badge badge-secondary">NEW</div>
-                </h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                  <div class="badge badge-outline">Fashion</div>
-                  <div class="badge badge-outline">Products</div>
-                </div>
-              </div>
-            </div>
-            <div class="card bg-base-100 w-96 shadow-xl">
-              <figure>
-                <img src="../../assets/DoctorImage/cd-9.png" alt="Doctor" />
-              </figure>
-              <div class="card-body">
-                <h2 class="card-title">
-                  Doctor
-                  <div class="badge badge-secondary">NEW</div>
-                </h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                  <div class="badge badge-outline">Fashion</div>
-                  <div class="badge badge-outline">Products</div>
-                </div>
-              </div>
-            </div>
-            <div class="card bg-base-100 w-96 shadow-xl">
-              <figure>
-                <img src="../../assets/DoctorImage/cd-9.png" alt="Doctor" />
-              </figure>
-              <div class="card-body">
-                <h2 class="card-title">
-                  Doctor
-                  <div class="badge badge-secondary">NEW</div>
-                </h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                  <div class="badge badge-outline">Fashion</div>
-                  <div class="badge badge-outline">Products</div>
-                </div>
-              </div>
-            </div>
-            <div class="card bg-base-100 w-96 shadow-xl">
-              <figure>
-                <img src="../../assets/DoctorImage/cd-9.png" alt="Doctor" />
-              </figure>
-              <div class="card-body">
-                <h2 class="card-title">
-                  Doctor
-                  <div class="badge badge-secondary">NEW</div>
-                </h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div class="card-actions justify-end">
-                  <div class="badge badge-outline">Fashion</div>
-                  <div class="badge badge-outline">Products</div>
-                </div>
-              </div>
+        class="lg:flex md:flex-row sm:flex-row flex-wrap p-5 justify-center items-center gap-5"
+      >
+        <!-- Card 1 -->
+        <div class="card bg-base-100 w-full sm:w-80 md:w-96 shadow-xl">
+          <figure class="hover:scale-105 duration-200">
+            <img src="../../assets/DoctorImage/cd-9.png" alt="Doctor" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">
+              Doctor
+              <div class="badge badge-secondary">NEW</div>
+            </h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <div class="badge badge-outline">Fashion</div>
+              <div class="badge badge-outline">Products</div>
             </div>
           </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card bg-base-100 w-full sm:w-80 md:w-96 shadow-xl">
+          <figure>
+            <img src="../../assets/DoctorImage/cd-9.png" alt="Doctor" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">
+              Doctor
+              <div class="badge badge-secondary">NEW</div>
+            </h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <div class="badge badge-outline">Fashion</div>
+              <div class="badge badge-outline">Products</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card bg-base-100 w-full sm:w-80 md:w-96 shadow-xl">
+          <figure>
+            <img src="../../assets/DoctorImage/cd-9.png" alt="Doctor" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">
+              Doctor
+              <div class="badge badge-secondary">NEW</div>
+            </h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <div class="badge badge-outline">Fashion</div>
+              <div class="badge badge-outline">Products</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card bg-base-100 w-full sm:w-80 md:w-96 shadow-xl">
+          <figure>
+            <img src="../../assets/DoctorImage/cd-9.png" alt="Doctor" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">
+              Doctor
+              <div class="badge badge-secondary">NEW</div>
+            </h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <div class="badge badge-outline">Fashion</div>
+              <div class="badge badge-outline">Products</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
